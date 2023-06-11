@@ -14,6 +14,7 @@
 		A537BDA82A1D2AE900260DF0 /* catsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537BDA72A1D2AE900260DF0 /* catsTests.swift */; };
 		A537BDB22A1D2AE900260DF0 /* catsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537BDB12A1D2AE900260DF0 /* catsUITests.swift */; };
 		A537BDB42A1D2AE900260DF0 /* catsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537BDB32A1D2AE900260DF0 /* catsUITestsLaunchTests.swift */; };
+		A5CAB22D2A35FDE800304A39 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAB22C2A35FDE800304A39 /* SafariView.swift */; };
 		A5EC12BB2A33A6E9004E1653 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC12BA2A33A6E9004E1653 /* Breed.swift */; };
 		A5EC12BD2A33A999004E1653 /* BreedDetailEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC12BC2A33A999004E1653 /* BreedDetailEndpoint.swift */; };
 		A5EC12C12A33CB68004E1653 /* Enpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC12C02A33CB68004E1653 /* Enpoint.swift */; };
@@ -68,6 +69,7 @@
 		A537BDAD2A1D2AE900260DF0 /* catsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A537BDB12A1D2AE900260DF0 /* catsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catsUITests.swift; sourceTree = "<group>"; };
 		A537BDB32A1D2AE900260DF0 /* catsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5CAB22C2A35FDE800304A39 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		A5EC12BA2A33A6E9004E1653 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 		A5EC12BC2A33A999004E1653 /* BreedDetailEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailEndpoint.swift; sourceTree = "<group>"; };
 		A5EC12C02A33CB68004E1653 /* Enpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enpoint.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 			children = (
 				A5EC12E72A33D6C3004E1653 /* BreedDetailView.swift */,
 				A5EC12E92A33D6EF004E1653 /* BreedDetailViewModel.swift */,
+				A5CAB22C2A35FDE800304A39 /* SafariView.swift */,
 			);
 			path = "Breed Detail";
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5EC12F92A35E89A004E1653 /* BreedsGridItemView.swift in Sources */,
+				A5CAB22D2A35FDE800304A39 /* SafariView.swift in Sources */,
 				A5EC12F22A33DAAA004E1653 /* PaginationInfo.swift in Sources */,
 				A5EC12E02A33D52E004E1653 /* BreedsListItemView.swift in Sources */,
 				A5EC12ED2A33D819004E1653 /* OnFirstApperViewModifier.swift in Sources */,

@@ -10,6 +10,7 @@ import SwiftUI
 struct BreedDetailView: View {
     
     @StateObject var viewModel: BreedDetailViewModel
+    @State var showWiki = false
     
     var body: some View {
         ZStack(alignment: .topLeading) {
@@ -31,6 +32,17 @@ struct BreedDetailView: View {
                         
                     case .failed:
                         Text("Sorry cat detail fetch failed")
+                    }
+                }
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                if let url = viewModel.catImage?.breeds.first!.wikipedia_url {
+                    Button("Wiki") {
+                        self.showWiki.toggle()
+                    }.sheet(isPresented: $showWiki){
+                        safari(url: url)
                     }
                 }
             }
