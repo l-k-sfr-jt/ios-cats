@@ -63,16 +63,16 @@ private extension BreedDetailView {
     func makeInfo(catImage: CatImage) -> some View {
         let breed = catImage.breeds.first!;
         return VStack(alignment: .leading, spacing: 8) {
-            Text("Info")
+            Text("About breed")
                 .font(.appSectionTitle)
                 .fontWeight(.bold)
 
             HStack(alignment: .top) {
                 VStack(alignment: .leading, spacing: 8) {
-                    makeInfoRow(title: "Description",text: breed.description)
-                    makeInfoRow(title: "Origin",text: breed.origin)
-                    makeInfoRow(title: "Temperament",text: breed.temperament)
-                    makeInfoRow(title: "Life span",text: breed.life_span)
+                    makeInfoRow(title: "Description", text: breed.description)
+                    makeInfoRow(title: "Origin", text: breed.origin)
+                    makeInfoRow(title: "Temperament", text: breed.temperament)
+                    makeInfoRow(title: "Life span", text: breed.life_span)
                 }
             }
         }
